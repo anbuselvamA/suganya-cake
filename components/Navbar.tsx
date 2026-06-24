@@ -15,11 +15,11 @@ export default function Navbar() {
   return (
     <nav className="flex items-center justify-between px-4 md:px-8 py-4 bg-white shadow-sm sticky top-0 z-50 min-h-[72px] relative">
       
-      {/* Logo (Left) */}
+      {/* Logo (Left on Desktop / Left & Center on Mobile) */}
       <div className="flex justify-start">
-        <Link href="/" className="flex items-center gap-2 select-none cursor-pointer">
-          <SCLogo className="w-10 h-10 md:w-16 md:h-16 text-[12px] md:text-[20px]" />
-          <div className="flex flex-col items-center mt-1">
+        <Link href="/" className="flex items-center select-none cursor-pointer">
+          <SCLogo className="w-10 h-10 md:w-16 md:h-16 text-[12px] md:text-[20px] md:mr-2" />
+          <div className="flex flex-col items-center mt-1 absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 md:left-auto">
             <div className="text-3xl md:text-5xl tracking-normal font-normal flex items-center">
               <span className="text-[#4A2C2A]" style={{ fontFamily: 'var(--font-great-vibes), cursive' }}>Suganya</span>
               <span className="text-pink-500 ml-1.5 md:ml-2" style={{ fontFamily: 'var(--font-great-vibes), cursive' }}>Cakes</span>
