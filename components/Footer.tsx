@@ -30,10 +30,10 @@ export default function Footer() {
           <ScrollReveal direction="up" delay={0.2} className="flex flex-col">
             <h4 className="text-pink-500 font-bold mb-4 md:mb-6 text-xs sm:text-sm">Quick Links</h4>
             <div className="flex flex-col gap-2 md:gap-3 text-[11px] sm:text-xs text-gray-300">
-              <a href="/" className="hover:text-white transition-colors">Home</a>
-              <a href="/all-cakes" className="hover:text-white transition-colors">Shop</a>
-              <a href="#" className="hover:text-white transition-colors">Contact</a>
-              <a href="#" className="hover:text-white transition-colors">About Us</a>
+              <Link href="/" className="hover:text-white transition-colors">Home</Link>
+              <Link href="/all-cakes" className="hover:text-white transition-colors">Shop</Link>
+              <Link href="#" className="hover:text-white transition-colors">Contact</Link>
+              <Link href="#" className="hover:text-white transition-colors">About Us</Link>
             </div>
           </ScrollReveal>
 

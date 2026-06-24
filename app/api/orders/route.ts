@@ -54,7 +54,7 @@ Status: ${order.status}
     if (accountSid && authToken && twilioWhatsAppNumber && bakeryOwnerNumber) {
       const client = twilio(accountSid, authToken);
       
-      const messageParams: any = {
+      const messageParams: { body: string; from: string; to: string; mediaUrl?: string[] } = {
         body: whatsappMessage,
         from: twilioWhatsAppNumber,
         to: bakeryOwnerNumber,

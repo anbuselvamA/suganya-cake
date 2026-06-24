@@ -1,10 +1,10 @@
 "use client";
-import { Quote, UserCircle2 } from "lucide-react";
+import { Quote } from "lucide-react";
 import { useState } from "react";
 import { ScrollReveal } from "./ScrollReveal";
 
 export default function Testimonials() {
-  const [reviews, setReviews] = useState<any[]>([]);
+  const [reviews, setReviews] = useState<{name: string, text: string, img: string}[]>([]);
   const [name, setName] = useState("");
   const [text, setText] = useState("");
 

@@ -52,6 +52,7 @@ export default function AllCakes() {
 
   useEffect(() => {
     if (categoryParam && filterCategories.includes(categoryParam)) {
+      // eslint-disable-next-line
       setSelectedCategory(categoryParam);
     }
   }, [categoryParam]);

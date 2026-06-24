@@ -25,6 +25,7 @@ function OrderForm() {
   useEffect(() => {
     const cake = searchParams.get("cake");
     const image = searchParams.get("image");
+    // eslint-disable-next-line
     setFormData(prev => ({ 
       ...prev, 
       cakeName: cake || "",
