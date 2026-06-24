@@ -3,9 +3,8 @@ export default function PromoBanner() {
     <div className="w-full max-w-6xl mx-auto px-4 md:px-0 my-8 md:my-12 relative overflow-hidden rounded-xl">
       <div className="flex flex-col md:flex-row bg-[#3E2723] h-auto md:h-32 rounded-xl relative overflow-hidden">
         {/* Yellow Left Section */}
-        <div className="bg-[#FFCC00] w-full md:w-5/12 h-56 md:h-full flex flex-col justify-center items-start md:items-center z-10 pl-6 md:pl-0 pt-4 md:pt-0" 
-             style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%, 0% 100%)' }}
-             className="hidden md:flex bg-[#FFCC00] md:w-5/12 h-full flex-col justify-center items-center z-10 relative">
+        <div className="hidden md:flex bg-[#FFCC00] w-full md:w-5/12 h-56 md:h-full flex-col justify-center items-start md:items-center z-10 pl-6 md:pl-0 pt-4 md:pt-0 relative" 
+             style={{ clipPath: 'polygon(0 0, 100% 0, 50% 100%, 0% 100%)' }}>
           <h3 className="text-xl md:text-2xl font-bold text-[#3E2723] uppercase tracking-wider mb-1 flex items-center gap-2">
             Get <span className="text-3xl md:text-5xl font-black">50%</span> <span className="text-xl md:text-2xl">Offer</span>
           </h3>
