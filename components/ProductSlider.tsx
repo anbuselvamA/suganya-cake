@@ -18,9 +18,9 @@ const favorites = [
 export default function ProductSlider() {
   return (
     <div id="favorites" className="py-12 bg-white flex flex-col items-center relative overflow-hidden">
-      <ScrollReveal direction="up" className="w-full max-w-6xl px-4 md:px-8 flex justify-between items-center md:items-end mb-6 md:mb-8">
-        <h2 className="text-2xl md:text-3xl font-bold text-[#5D3F2E]">Pick Your Favorites</h2>
-        <Link href="/all-cakes" className="text-xs md:text-sm font-bold text-pink-500 hover:text-pink-600 transition-colors uppercase tracking-wider flex items-center gap-1">
+      <ScrollReveal direction="up" className="w-full max-w-6xl px-4 md:px-8 flex flex-col items-center relative mb-6 md:mb-8 gap-3 md:gap-0">
+        <h2 className="text-2xl md:text-3xl font-bold text-[#5D3F2E] text-center">Pick Your Favorites</h2>
+        <Link href="/all-cakes" className="md:absolute md:right-8 text-xs md:text-sm font-bold text-pink-500 hover:text-pink-600 transition-colors uppercase tracking-wider flex items-center gap-1">
           VIEW ALL <ChevronRight size={16} className="md:w-[18px] md:h-[18px]" />
         </Link>
       </ScrollReveal>
